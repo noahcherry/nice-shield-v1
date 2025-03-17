@@ -184,4 +184,4 @@ CONFIG_ZMK_DISPLAY_STATUS_SCREEN_CUSTOM=y
 
 ## Issues
 
-If you have issues, raise and issue on github and I will try to help out when I have time. This will also help me tweak the guide
+If you have issues, raise an issue on github and I will try to help out when I have time. This will also help me tweak the guide with anything I may have missed.
