@@ -11,7 +11,7 @@ This is a base repo to help anyone get started creating their own images/animati
 > [!NOTE]
 > When you have created your own display, consider adding it to [this collection](https://github.com/whoop-t/nice-shield-collection) I started for nice!view displays!
 
-## Fork or clone the repo
+## Clone the repo
 
 > [!NOTE]
 > A convention I like to do is to name the repo/module starting with `nice` to signify that this is a nice!view module.
