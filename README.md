@@ -17,13 +17,6 @@ This is a base repo to help anyone get started creating their own images/animati
 > A convention I like to do is to name the repo/module starting with `nice` to signify that this is a nice!view module.
 > e.g if I was creating displays with star art, I'd name it something like `nice-star-display` or something similar.
 
-
-### Fork
-
-Fork repo through github
-
-Then clone the repo to your local computer to start work
-
 ### Clone the repo(RECOMMENDED)
 ```
 git clone git@github.com:whoop-t/nice-shield-base.git your-repo-name
