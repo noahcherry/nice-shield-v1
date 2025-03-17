@@ -86,6 +86,10 @@ name: "zmk-shield-nice!view-your-repo"
 > WIP
 > TODO Add guide to create the pixel art
 
+> [!IMPORTANT]
+> WIP
+> TODO Add guide to animations and set in repo
+
 ## Add images
 
 > [!NOTE]
@@ -177,3 +181,7 @@ Also make sure to enable the custom status screen in your ZMK configuration, thi
 CONFIG_ZMK_DISPLAY=y
 CONFIG_ZMK_DISPLAY_STATUS_SCREEN_CUSTOM=y
 ```
+
+## Issues
+
+If you have issues, raise and issue on github and I will try to help out when I have time. This will also help me tweak the guide
