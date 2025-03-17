@@ -64,6 +64,9 @@ After you have the code, you will need to rename some items to make sure it gets
 
 In `Kconfig.shield`, update `nice_shield_base` to your shield
 This will be your repo name but with underscores
+
+> [!IMPORTANT]
+> Do NOT update `SHIELD_NICE_VIEW_SHIELD_BASE`, only `nice_shield_base` in the parenthesis
 ```
 config SHIELD_NICE_VIEW_SHIELD_BASE
     def_bool $(shields_list_contains,nice_shield_base)
