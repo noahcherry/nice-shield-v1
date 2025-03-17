@@ -3,6 +3,14 @@
 > [!IMPORTANT]
 > WIP
 
+This is a base repo to help anyone get started creating their own images/animations for their nice!view.
+
+The repo already has a base image that can be flashed and tested before adding your own art to make sure the steps were followed correctly.
+
+> [!IMPORTANT]
+> This repo is only for nice!views and zmk with zephyr modules. This will NOT work for OLED/qmk setups.
+> Since this is a zephyr modules(you dont really need to know what this means), anyone will be able to use your images since the repo is hosted on github.
+
 ## Fork or clone the repo
 
 ### Fork
