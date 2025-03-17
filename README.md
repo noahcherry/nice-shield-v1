@@ -19,7 +19,7 @@ This is a base repo to help anyone get started creating their own images/animati
 ## Fork or clone the repo
 
 > [!IMPORTANT]
-> A convension I like to do is to name the repo/module starting with `nice` to signify that this is a nice!view module.
+> A convention I like to do is to name the repo/module starting with `nice` to signify that this is a nice!view module.
 > e.g if I was creating displays with star art, I'd name it something like `nice-star-display` or something similar.
 
 
@@ -29,7 +29,7 @@ Fork repo through github
 
 Then clone the repo to your local computer to start work
 
-### Clone the repo(alternative to forking)
+### Clone the repo(RECOMMENDED)
 ```
 git clone git@github.com:whoop-t/nice-shield-base.git your-repo-name
 ```
@@ -43,7 +43,7 @@ On you github, create a new repo with the same name as your folder you cloned to
 
 You need to attach your local clone to the remote repo, do this by running the command below
 > [!NOTE]
-> You can get the url by using the Code button on your repo on Github 
+> You can get the url by using the Code button on your repo on github 
 ```
 git remote set-url origin git@github.com:YOUR-USER/your-repo-name.git
 ```
@@ -96,7 +96,7 @@ name: "zmk-shield-nice!view-your-repo"
 
 ## Test your repo!!!
 
-After all the renaming and hooking up to your repo, test everything is working correclty by adding your new repo to your ZMK config.
+After all the renaming and hooking up to your repo, test everything is working correctly by adding your new repo to your ZMK config.
 
 The repo already has a base image that can be flashed and tested before adding your own art to make sure the steps were followed correctly.
 
