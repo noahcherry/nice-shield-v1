@@ -5,7 +5,6 @@
 
 This is a base repo to help anyone get started creating their own images/animations for their nice!view.
 
-The repo already has a base image that can be flashed and tested before adding your own art to make sure the steps were followed correctly.
 
 > [!IMPORTANT]
 > This repo is only for nice!views and zmk with zephyr modules. This will NOT work for OLED/qmk setups.
@@ -84,6 +83,50 @@ name: "zmk-shield-nice!view-your-repo"
 - Rename `shields/nice_shield_base/nice_shield_base.overlay` to your repo name
 - Rename `shields/nice_shield_base/nice_shield_base.zmk.yml` to your repo name
 
+## Test your repo!!!
+
+After all the renaming and hooking up to your repo, test everything is working correclty by adding your new repo to your ZMK config.
+
+The repo already has a base image that can be flashed and tested before adding your own art to make sure the steps were followed correctly.
+
+### Add your new module to your ZMK config
+
+Add your remote repo to `west.yaml`
+```yaml
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: your-github-user #new entry
+      url-base: https://github.com/your-github-user #new entry
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+    - name: your-repo-name #new entry
+      remote: your-github-user #new entry
+      revision: main #new entry
+  self:
+    path: config
+```
+
+Add your module to `build.yaml`(this is for corne, but change for your keyboard if needed)
+```yaml
+include:
+  - board: nice_nano_v2
+    shield: corne_left nice_view_adapter your_repo_name #update entry
+  - board: nice_nano_v2
+    shield: corne_right nice_view_adapter your_repo_name #update entry
+```
+
+Also make sure to enable the custom status screen in your ZMK configuration, this would be your keyboards .conf file in the config directory:
+
+```
+CONFIG_ZMK_DISPLAY=y
+CONFIG_ZMK_DISPLAY_STATUS_SCREEN_CUSTOM=y
+```
+
 ## Create 1-bit art
 > [!IMPORTANT]
 > ART MUST BE 80x69
@@ -151,44 +194,7 @@ git commit -m "Your commit message"
 git push
 ```
 
-Then you just need to adjust your ZMK config to use the module
-
-
-Add remote to `west.yaml`
-```yaml
-manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: your-github-user #new entry
-      url-base: https://github.com/your-github-user #new entry
-  projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
-    - name: your-repo-name #new entry
-      remote: your-github-user #new entry
-      revision: main #new entry
-  self:
-    path: config
-```
-
-Add this module to `build.yaml`(this is for corne, but change for your keyboard if needed)
-```yaml
-include:
-  - board: nice_nano_v2
-    shield: corne_left nice_view_adapter your_repo_name #update entry
-  - board: nice_nano_v2
-    shield: corne_right nice_view_adapter your_repo_name #update entry
-```
-
-Also make sure to enable the custom status screen in your ZMK configuration, this would be your keyboards .conf file in the config directory:
-
-```
-CONFIG_ZMK_DISPLAY=y
-CONFIG_ZMK_DISPLAY_STATUS_SCREEN_CUSTOM=y
-```
+Then you just need to adjust your ZMK config to use the module like in the above step and flash your board!
 
 ## Issues
 
