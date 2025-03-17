@@ -138,6 +138,8 @@ CONFIG_ZMK_DISPLAY=y
 CONFIG_ZMK_DISPLAY_STATUS_SCREEN_CUSTOM=y
 ```
 
+Now flash your board and you should see the base image from this repo. If there is an issue, go back and walkthrough the steps again and make sure you did everything correctly.
+
 ## Create 1-bit art
 > [!IMPORTANT]
 > ART MUST BE 80x69
