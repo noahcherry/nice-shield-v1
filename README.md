@@ -11,6 +11,10 @@ This is a base repo to help anyone get started creating their own images/animati
 > [!NOTE]
 > When you have created your own display, consider adding it to [this collection](https://github.com/whoop-t/nice-shield-collection) I started for nice!view displays!
 
+## Prerequisite
+1. Have [git](https://git-scm.com/) installed
+2. Have a Github account
+
 ## Clone the repo
 
 > [!NOTE]
