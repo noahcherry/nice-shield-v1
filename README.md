@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > WIP
 
-This is a base repo to help anyone get started creating their own images/animations for their nice!view.
+This is a base repo to help anyone get started creating their own images/animations for their nice!view. This guides focus is just changing the main image and leaving extras like bluetooth, battery, etc alone. Of course all these are changeable, but getting the repo set up and changing the main image is a good first step in customizing it more.
 
 
 > [!IMPORTANT]
@@ -12,13 +12,13 @@ This is a base repo to help anyone get started creating their own images/animati
 >
 > If you would like OLED/qmk examples, check out my collection of OLED displays for qmk [HERE](https://github.com/whoop-t/qmk-oled-collection)
 
-> [!IMPORTANT]
+> [!NOTE]
 > When you have created your own display, consider adding it to this collection I started for nice!view displays!
 > [nice shield collection](https://github.com/whoop-t/nice-shield-collection)
 
 ## Fork or clone the repo
 
-> [!IMPORTANT]
+> [!NOTE]
 > A convention I like to do is to name the repo/module starting with `nice` to signify that this is a nice!view module.
 > e.g if I was creating displays with star art, I'd name it something like `nice-star-display` or something similar.
 
