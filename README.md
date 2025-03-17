@@ -174,7 +174,7 @@ I just use [iloveimg](https://www.iloveimg.com/rotate-image), but feel free to u
 
 ### Image to code conversion
 
-Take your 1-bit art that your created or found and upload it to
+Take your 1-bit art that you created or found and upload it to
 [image2cpp](https://javl.github.io/image2cpp/)
 
 The only option you need to change is `Code output format`, make sure its set to `Plain bytes`
@@ -184,11 +184,12 @@ You will see the code, copy everything in the textfield
 
 ## Paste to code in repo
 
-Depending on the image you are setting, you will need to update on of the following files:
+Depending on the image you are setting, you will need to update one of the following files:
 1. `assests/left_image.c` (for your left half)
 2. `assests/right_image.c` (for your right half)
 
-You should see bytes already there, as well as a comments in the code above and below the bytes
+You should see bytes already there, as well as a comments in the code above and below the bytes.
+
 Replace the bytes with your bytes from the conversion
 ```c
   // REPLACE THESE BYTES
@@ -210,7 +211,7 @@ git commit -m "Your commit message"
 git push
 ```
 
-Then you just need to adjust your ZMK config to use the module like in the above step and flash your board!
+Then you just need to adjust your ZMK config to use the module like in the above step(if you havent done so already) and flash your board!
 
 ## Issues
 
