@@ -9,6 +9,12 @@ This is a base repo to help anyone get started creating their own images/animati
 > [!IMPORTANT]
 > This repo is only for nice!views and zmk with zephyr modules. This will NOT work for OLED/qmk setups.
 > Since this is a zephyr modules(you dont really need to know what this means), anyone will be able to use your images since the repo is hosted on github.
+>
+> If you would like OLED/qmk examples, check out my collection of OLED displays for qmk [HERE](https://github.com/whoop-t/qmk-oled-collection)
+
+> [!IMPORTANT]
+> When you have created your own display, consider adding it to this collection I started for nice!view displays!
+> [nice shield collection](https://github.com/whoop-t/nice-shield-collection)
 
 ## Fork or clone the repo
 
