@@ -155,7 +155,6 @@ Now flash your board and you should see the base image from this repo. If there 
 
 > [!NOTE]
 > If you want animations, you can skip to the animation section
-> This section is just for still images
 
 > [!NOTE]
 > This section also assumes you already have an image created from the previous step
