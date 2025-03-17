@@ -1,10 +1,6 @@
 # nice-shield-base
 
-> [!IMPORTANT]
-> WIP
-
 This is a base repo to help anyone get started creating their own images/animations for their nice!view. This guides focus is just changing the main image and leaving extras like bluetooth, battery, etc alone. Of course all these are changeable, but getting the repo set up and changing the main image is a good first step in customizing it more.
-
 
 > [!IMPORTANT]
 > This repo is only for nice!views and zmk with zephyr modules. This will NOT work for OLED/qmk setups.
