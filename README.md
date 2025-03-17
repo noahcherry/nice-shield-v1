@@ -14,6 +14,8 @@ This is a base repo to help anyone get started creating their own images/animati
 ## Prerequisite
 1. Have [git](https://git-scm.com/) installed
 2. Have a Github account
+3. A board with nice!views
+4. ZMK setup and you are able to flash your board 
 
 ## Clone the repo
 
