@@ -9,8 +9,7 @@ This is a base repo to help anyone get started creating their own images/animati
 > If you would like OLED/qmk examples, check out my collection of OLED displays for qmk [HERE](https://github.com/whoop-t/qmk-oled-collection)
 
 > [!NOTE]
-> When you have created your own display, consider adding it to this collection I started for nice!view displays!
-> [nice shield collection](https://github.com/whoop-t/nice-shield-collection)
+> When you have created your own display, consider adding it to [this collection](https://github.com/whoop-t/nice-shield-collection) I started for nice!view displays!
 
 ## Fork or clone the repo
 
