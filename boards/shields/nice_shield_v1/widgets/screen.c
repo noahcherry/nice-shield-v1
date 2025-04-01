@@ -26,7 +26,7 @@ static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
 
 #include "tamogatchi.h"
-static struct zmk_widget_luna luna_widget;
+static struct zmk_widget_luna tamogatchi_widget;
 
 
 /**
