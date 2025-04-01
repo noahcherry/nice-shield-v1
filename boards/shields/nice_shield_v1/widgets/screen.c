@@ -24,6 +24,11 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
+#if IS_ENABLED(CONFIG_NICE_OLED_WIDGET_WPM)
+#include "tamogatchi.h"
+static struct zmk_widget_luna luna_widget;
+#endif
+
 /**
  * Draw buffers
  **/
